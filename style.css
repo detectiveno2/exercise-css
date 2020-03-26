@@ -229,18 +229,50 @@
   margin-bottom: 1rem;
 }
 
+.value-props .value-prop-icon + p {
+  text-align: center;
+}
+
+.value-props a {
+  color: #444444;
+  display: block;
+  padding: 20px 0px 1px 0px;
+}
+
+.value-props a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #e3e3e3;
+}
+
 .value-props .intellisense {
   background-position: 0 0rem;
+}
+
+.value-props a:hover .intellisense {
+  background-position: 0 -5.3rem;
 }
 
 .value-props .debugging {
   background-position: -5.2rem 0;
 }
 
+.value-props a:hover .debugging {
+  background-position: -5.2rem -5.3rem;
+}
+
 .value-props .git {
   background-position: -10.4rem 0;
 }
 
+.value-props a:hover .git {
+  background-position: -10.4rem -5.3rem;
+}
+
 .value-props .extensions {
   background-position: -15.6rem 0;
+}
+
+.value-props a:hover .extensions {
+  background-position: -15.6rem -5.3rem;
 }

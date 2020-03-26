@@ -231,6 +231,7 @@
 
 .value-props .value-prop-icon + p {
   text-align: center;
+  font-size: 25px;
 }
 
 .value-props a {

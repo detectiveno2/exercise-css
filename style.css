@@ -277,3 +277,56 @@
 .value-props a:hover .extensions {
   background-position: -15.6rem -5.3rem;
 }
+
+.meet-item .container {
+  padding: 60px 0px;
+}
+
+.meet-item:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.meet-item .image-content img {
+  width: 100%;
+}
+
+.meet-item .text-meet .title {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20px 0px 35px 0px;
+}
+
+.meet-item .text-meet .text-content {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.insiders-callout {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+}
+
+.insiders-callout .text-center {
+  padding: 20px 20%;
+}
+
+.insiders-callout .terms {
+  padding: 20px 20%;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.insiders-callout .terms h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.insiders-callout .terms p {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 40px;
+}
